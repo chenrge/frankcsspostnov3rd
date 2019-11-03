@@ -1,0 +1,96 @@
+  div#navigationbarcss body {
+    background-color: #e36e0f;
+    font-size: 20px;
+    padding: 1px;
+  }
+  div#navigationbarcss nav {
+      background-color: #e36e0f;
+      display: flex;
+      padding:2px;
+      height: 30px;
+  }
+  
+   div#navigationbarcss input{
+      padding: 10px;
+      margin: 10px;
+  }
+  
+
+  div#navigationbarcss .info {
+      display: flex;
+      justify-content: center;
+  }
+  
+  div#navigationbarcss .name {
+      display: flex;
+      justify-content: center;
+  }
+  div#navigationbarcss .location {
+      display: flex;
+      justify-content: center;
+  }
+  div#navigationbarcss .userpass {
+      display: flex;
+      justify-content: center;
+  }
+  div#navigationbarcss .roles {
+      display: flex;
+      justify-content: center;
+  }
+  div#navigationbarcss h1 {
+      
+      text-align: center;
+      color: #e36e0f;
+  }
+  div#navigationbarcss h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #363330;
+}
+
+  div#navigationbarcss nav button{
+      background-color: #e36e0f;
+      border:none;
+  }
+  div#navigationbarcss nav button:hover{
+    background-color: #f8f8f8;
+    text-decoration: underline;
+  }
+  
+  div#navigationbarcss p {
+    text-align: center;
+      color: #363330;
+  }
+  div#navigationbarcss .image{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  div#navigationbarcss .name {
+      padding:5px;
+    display: flex;
+    justify-content: center;
+  }
+  div#navigationbarcss .bio{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  div#navigationbarcss .email{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  div#navigationbarcss .content button {
+      height:25px;
+      width:27.5px;
+      font-size:15px;
+      margin:1.5px;
+  }
+
+div#navigationbarcss .content p{
+    margin-right: 3px;
+}

@@ -1,0 +1,20 @@
+div {
+    text-align: center;
+    
+}
+
+NavLink {
+  height: 300px;
+  width: 300px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#navi {
+    display: flex; 
+    justify-content: center
+}
