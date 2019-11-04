@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="home.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+    <div id="allview">
+        <div class = "navbar">
+            <nav>
+                <NavLink to="/Home" exact activeClassName="current">
+                    <button><i className="fa fa-home"></i> Home </button>
+                  </NavLink>
+                  <NavLink to={"/Profile?user=" + id} exact activeClassName="current">
+                    <button><i className="fa fa-address-book"></i> My Profile</button>
+                  </NavLink>
+      
+                  <NavLink to="/create" exact activeClassName="current">
+                    <button><i className="fa fa-plus"></i>Add Fandom</button>
+                  </NavLink>
+      
+                  <NavLink to="/Logout">
+                    <button><i className="fa fa-power-off"></i> Logout</button>
+                  </NavLink>
+                </nav>
+        </div>
+            
+
+
+
+
+        <div class="comments">
+          <div class="list-comments">
+            <div>
+              <p><span class="username">Username</span></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="comments">
+          <h1>Comments</h1>
+          <textarea placeholder="Share your thoughts..." class="comment-content" maxlength="1000"></textarea>
+          <div class="insert-text">
+
+            <div class="comment-as">
+
+
+              <span>
+                <input type="submit" value="Create" />
+              </span>
+
+
+            </div>
+
+          </div>
+          <div class="list-comments">
+            <div>
+              <p><span class="username">Username</span></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            </div>
+            <div>
+              <p><span class="username">Username</span></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+</body>
+</html> 
